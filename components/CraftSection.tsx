@@ -1,4 +1,3 @@
-import CraftDynamicCard from "./CraftDynamicCard";
 import CraftCard from "./CraftCard";
 
 export default function CraftSection() {
@@ -17,30 +16,37 @@ export default function CraftSection() {
       >
         <CraftCard
           video="/videos/craft4.mp4"
+          poster="/images/craft4-poster.jpg"
           href="https://apps.apple.com/mx/app/atlas-of-moons/id1520266563?l=en-GB"
         />
 
         <CraftCard
           video="/videos/craft1.mp4"
+          poster="/images/craft1-poster.jpg"
           leftText="Player Video UIKit"
           rightText="June 2024"
         />
 
         <CraftCard
           video="/videos/craft5.mp4"
+          poster="/images/craft5-poster.jpg"
           href="https://apps.apple.com/mx/app/puzzle-merge/id6482997592?l=en-GB"
         />
 
-        <CraftDynamicCard
+        <CraftCard
           video="/videos/craft2.mp4"
+          poster="/images/craft2-poster.jpg"
           leftText="Onboarding AppKit"
           rightText="April 2024"
+          variant="fluid"
         />
 
-        <CraftDynamicCard
+        <CraftCard
           video="/videos/craft3.mp4"
+          poster="/images/craft3-poster.jpg"
           leftText="Recording UI UIKit"
           rightText="February 2024"
+          variant="fluid"
         />
       </div>
     </section>
