@@ -15,6 +15,13 @@ export default function CraftSection() {
         "
       >
         <CraftCard
+          video="/videos/craft6.mp4"
+          poster="/images/craft6-poster.jpg"
+          leftText="Gesture Navigation"
+          rightText="March 2025"
+        />
+
+        <CraftCard
           video="/videos/craft4.mp4"
           poster="/images/craft4-poster.jpg"
           href="https://apps.apple.com/mx/app/atlas-of-moons/id1520266563?l=en-GB"
