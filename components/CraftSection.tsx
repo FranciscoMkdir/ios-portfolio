@@ -15,6 +15,13 @@ export default function CraftSection() {
         "
       >
         <CraftCard
+          video="/videos/craft8.mp4"
+          poster="/images/craft8-poster.jpg"
+          leftText="Metal + SwiftUI"
+          rightText="July 2025"
+        />
+
+        <CraftCard
           video="/videos/craft7.mp4"
           poster="/images/craft7-poster.jpg"
           leftText="SwiftUI"
